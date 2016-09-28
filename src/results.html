@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Кредитные предложения</title>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="main.css"/>
+        <link rel="stylesheet" href="list.css"/>
+    </head>
+    <body>
+        <div class="top">
+            <div class="logo logo_small"></div>
+        </div>
+        <main class="list">
+            <section class="list-header">
+                <h2 class="hello">
+                    Здравствуйте, Лев!
+                </h2>
+                <div class="info">
+                    Мы выбрали для вас самые интересные кредитные предложения
+                </div>
+            </section>
+            <section class="list-body">
+                <table class="loans" id="offers">
+                </table>
+                <div class="delimiter"></div>
+                <div class="info info_padded">
+                    Вам также могут понравиться
+                </div>
+                <table class="loans" id="additionalOffers">
+                </table>
+            </section>
+        </main>
+        <script type="x-tmpl-mustache" id="offer-template">
+            <tr class="loan">
+                <td class="loan-contractor">
+                    <div class="contractor-logo" style="background-image: url(images/{{contractor.logo}}.png);"></div>
+                </td>
+                <td class="loan-details">
+                    <div class="loan-title">{{name}}</div>
+                    <div class="loan-info">
+                        <p>
+                            <span class="loan-info__duration">
+                                {{minDuration}} — {{maxDuration}} месяцев
+                            </span>
+                            <span>|</span>
+                            <span class="loan-info__interest">
+                                {{interestRate}}% в год
+                            </span>
+                        </p>
+                        <p>{{description}}</p>
+                    </div>
+                </td>
+                <td class="loan-actions">
+                    <a class="icon icon_go" href="{{url}}"></a>
+                </td>
+            </tr>
+        </script>
+        <script type="x-tmpl-mustache" id="additional-offer-template">
+            <tr class="loan">
+                <td class="loan-contractor">
+                    <div class="contractor-logo" style="background-image: url(images/{{contractor.logo}}.png);"></div>
+                </td>
+                <td class="loan-details">
+                    <div class="loan-title">{{name}}</div>
+                    <div class="loan-info">
+                        <p>
+                            <span class="loan-info__duration">
+                                {{minDuration}} — {{maxDuration}} месяцев
+                            </span>
+                            <span>|</span>
+                            <span class="loan-info__interest loan-info__interest_suggested">
+                                {{interestRate}}% в год
+                            </span>
+                        </p>
+                        <p>{{description}}</p>
+                        <div class="loan-controls">
+                            <a class="hover-button" href="{{url}}">
+                                <span class="hover-button__link">Подробнее</a>
+                            </a>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </script>
+        <script src="lib/jquery.min.js"></script>
+        <script src="lib/underscore-min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

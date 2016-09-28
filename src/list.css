@@ -1,0 +1,83 @@
+.top {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.hello {
+    margin: 10px 0;
+}
+
+.list {
+    margin: 20px auto;
+    width: 610px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.list-header {
+    height: 205px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.list-body {
+    padding-bottom: 120px;
+}
+
+.loans {
+    width: 480px;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.loan-contractor,
+.loan-details,
+.loan-actions {
+    border-bottom: 1px solid #eaeaeb;
+}
+
+.loan-details {
+    text-align: left;
+    padding: 20px 0 20px 40px;
+    line-height: 1.5em;
+}
+
+.loan-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.loan-info {
+    font-size: 14px;
+    color: #7c7c7c;
+}
+    .loan-info__interest {
+        color: #fdbf2e;
+    }
+        .loan-info__interest_suggested {
+            color: #4372ea;
+        }
+
+.loan-controls {
+    margin-top: 10px;
+}
+
+.contractor-logo {
+    width: 180px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.info {
+    font-size: 16px;
+    line-height: 1.5em;
+    color: #7c7c7c;
+    width: 350px;
+    margin: 0 auto;
+}
+    .info_padded {
+        margin: 20px auto;
+    }

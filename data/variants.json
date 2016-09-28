@@ -1,0 +1,122 @@
+{
+    "top": [
+        {
+            "durationInDays": false,
+            "contractor": {
+                "id": 24,
+                "name": "Райффайзен банк",
+                "logo": "232a2e3f-e758-47fb-b04f-b38fa5a9ca07"
+            },
+            "interestRate": 15.9,
+            "minAmount": 50000,
+            "maxAmount": 500000,
+            "minDuration": 3,
+            "maxDuration": 36,
+            "description": "Паспорт и второй документ",
+            "issuances": [
+                "ACCOUNT",
+                "CASH"
+            ],
+            "cities": [
+                {
+                    "id": 1,
+                    "name": "Москва"
+                }
+            ],
+            "color": null,
+            "url": "https://example.com/offer/24",
+            "name": "Микрозайм по паспорту",
+            "priority": 19999,
+            "id": 24,
+            "type": "CONSUMER_LOAN"
+        },
+        {
+            "durationInDays": false,
+            "contractor": {
+                "id": 26,
+                "name": "ОТП банк",
+                "logo": "4ecbde9f-1d4d-4237-9666-1b0210cf9e8a"
+            },
+            "interestRate": 14.9,
+            "minAmount": 100000,
+            "maxAmount": 1000000,
+            "minDuration": 12,
+            "maxDuration": 36,
+            "description": "Рассмотрение: 30 минут",
+            "issuances": [
+                "CARD"
+            ],
+            "cities": [
+                {
+                    "id": 1,
+                    "name": "Москва"
+                }
+            ],
+            "color": null,
+            "url": "https://example.com/offer/14",
+            "name": "Кредит до миллиона рублей",
+            "priority": 19998,
+            "id": 14,
+            "type": "CREDIT_CARD"
+        }
+    ],
+    "bottom": [
+        {
+            "durationInDays": false,
+            "contractor": {
+                "id": 24,
+                "name": "Райффайзен банк",
+                "logo": "232a2e3f-e758-47fb-b04f-b38fa5a9ca07"
+            },
+            "interestRate": 15.9,
+            "minAmount": 50000,
+            "maxAmount": 750000,
+            "minDuration": 3,
+            "maxDuration": 36,
+            "description": "Паспорт и второй документ",
+            "issuances": [
+                "ACCOUNT",
+                "CASH"
+            ],
+            "cities": [
+                {
+                    "id": 1,
+                    "name": "Москва"
+                }
+            ],
+            "color": null,
+            "url": "https://example.com/offer/23",
+            "name": "Микрозайм по паспорту",
+            "priority": 9997,
+            "id": 23,
+            "type": "CREDIT_CARD"
+        },
+        {
+            "durationInDays": false,
+            "contractor": {
+                "id": 26,
+                "name": "ОТП банк",
+                "logo": "4ecbde9f-1d4d-4237-9666-1b0210cf9e8a"
+            },
+            "interestRate": 15.0,
+            "minAmount": 50000,
+            "maxAmount": 200000,
+            "minDuration": 12,
+            "maxDuration": 36,
+            "description": "Рассмотрение: 30 минут",
+            "issuances": [],
+            "cities": [
+                {
+                    "id": 1,
+                    "name": "Москва"
+                }
+            ],
+            "color": null,
+            "url": "https://example.com/offer/50",
+            "name": "Кредит до миллиона рублей",
+            "priority": 9901,
+            "id": 50,
+            "type": "CREDIT_CARD"
+        }
+    ]
+}

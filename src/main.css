@@ -1,0 +1,72 @@
+html,
+body,
+a, p, h1, h2 {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: ProximaNova Semibold, Arial, sans-serif;
+}
+
+h1 {
+    font-size: 34px;
+}
+
+.logo {
+    background: url(images/logo.png) 0 0 no-repeat;
+    background-size: contain;
+    width: 210px;
+    height: 40px;
+    display: inline-block;
+}
+    .logo_small {
+        width: 172px;
+        height: 20px;
+    }
+
+.button {
+    text-decoration: none;
+    border: 0;
+    border-radius: 40px;
+    background-color: #416ff1;
+    padding: 8px 40px;
+    font-size: 23px;
+    color: #fff;
+    display: inline-block;
+}
+
+.delimiter {
+    width: 100%;
+    height: 40px;
+    margin: 40px 0;
+    background: url(images/delimiter.jpg);
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    display: block;
+}
+    .icon_go {
+        background: url(images/go.jpg) 0 0 no-repeat;
+    }
+
+.hover-button {
+    padding: 5px 15px;
+    text-decoration: none;
+    margin-left: -15px;
+}
+    .hover-button__link {
+        color: #4372ea;
+        border-bottom: 1px dotted #4372ea;
+    }
+    .hover-button:hover {
+        background: #fdbf2e;
+        border: 0;
+        border-radius: 10px;
+    }
+        .hover-button:hover .hover-button__link {
+            color: #000;
+            border: 0;
+        }
